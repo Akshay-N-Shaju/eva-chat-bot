@@ -8,6 +8,7 @@
 <include file="./demo/ai.aiml"/>
 <include file="./demo/default.aiml"/>
 <include file="./demo/emotion.aiml"/>
+<include file="./demo/badanswer.aiml"/>
 
 
 

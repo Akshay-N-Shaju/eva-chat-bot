@@ -5,11 +5,11 @@
 
 <!-- includes -->
 <include file="./demo/demo.aiml"/>
-<include file="./demo/ai.aiml"/>
 <include file="./demo/default.aiml"/>
 <include file="./demo/emotion.aiml"/>
 <include file="./demo/badanswer.aiml"/>
 <include file=./demo/money.aiml"/>
+<include file=./demo/ai.aiml"/>
 
 
 

@@ -56,8 +56,6 @@ if (!isset($_REQUEST['requestType']) || !isset($_REQUEST['userInput'])) {
         $result['message'] = 'invalid request type ...';
         $result['data'] = 'empty';
     }
-
-
 }
 
 if (LOG) {
@@ -67,6 +65,3 @@ if (LOG) {
 } else {
     echo json_encode($result);
 }
-
-
-

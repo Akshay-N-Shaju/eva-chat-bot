@@ -6,7 +6,6 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-
             var localUrl = window.location.href;
             localUrl = localUrl.replace('web/', '');
 

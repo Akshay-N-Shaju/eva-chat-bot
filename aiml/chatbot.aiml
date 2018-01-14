@@ -8,8 +8,8 @@
 <include file="./demo/default.aiml"/>
 <include file="./demo/emotion.aiml"/>
 <include file="./demo/badanswer.aiml"/>
-<include file=./demo/money.aiml"/>
-<include file=./demo/ai.aiml"/>
+<include file="./demo/money.aiml"/>
+<include file="./demo/ai.aiml"/>
 
 
 
@@ -17,10 +17,9 @@
     <pattern>hello</pattern>
     <template>
     	<random><li>
-        hello ...
+        hello ...</li>
     </template>
 </category>
-<srai>
 
 
 <default>

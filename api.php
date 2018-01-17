@@ -18,8 +18,6 @@ $result = array(
     'message' => 'empty message ...',
     'data' => 'empty',
 );
-
-
 // check request type
 if (!isset($_REQUEST['requestType']) || !isset($_REQUEST['userInput'])) {
     $result['status'] = 'error';

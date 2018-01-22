@@ -26,14 +26,11 @@ if (!isset($_REQUEST['requestType']) || !isset($_REQUEST['userInput'])) {
     $result['data'] = 'empty';
 } else {
 
-
-    // 若用户上传了userId则用uid当做用户唯一标识否则用ip
     $userId = isset($_REQUEST['userId']) ? $_REQUEST['userId'] : $_SERVER['REMOTE_ADDR'];
     LOG && print "userId : " . $userId . "\n";
 
     // initialize chatbot
     $chatbot = new Chatbot($config, $userId);
-
 
     // talk
     if ($_REQUEST['requestType'] == 'talk') {

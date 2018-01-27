@@ -2,6 +2,8 @@
 /**
  *auther : @kshay
  */
+
+
 require_once "chatbot/Chatbot.php";
 require_once "chatbot/Config.php";
 require_once "chatbot/Database/Connection.php";
@@ -56,6 +58,7 @@ if (!isset($_REQUEST['requestType']) || !isset($_REQUEST['userInput'])) {
 
 if (LOG) {
     print "\n";
+
     print_r($result);
     print "\n";
 } else {

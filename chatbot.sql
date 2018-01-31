@@ -1,12 +1,3 @@
---
--- Banco de Dados: `programp`
---
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `data`
---
 
 CREATE TABLE IF NOT EXISTS `data` (
   `unique` varchar(41) NOT NULL,
@@ -16,9 +7,6 @@ CREATE TABLE IF NOT EXISTS `data` (
 
 -- --------------------------------------------------------
 
---
--- Estrutura da tabela `log`
---
 
 CREATE TABLE IF NOT EXISTS `log` (
   `user` varchar(255) NOT NULL,
@@ -30,9 +18,6 @@ CREATE TABLE IF NOT EXISTS `log` (
 
 -- --------------------------------------------------------
 
---
--- Estrutura da tabela `prop`
---
 
 CREATE TABLE IF NOT EXISTS `property` (
   `unique` varchar(255) NOT NULL,

@@ -37,7 +37,6 @@
                 });
             });
 
-
             $('#fMessage').submit(function () {
 
                 // get user input

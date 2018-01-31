@@ -10,8 +10,6 @@ $config = new Config();
 define("LOG", $config->log);
 header(LOG ? "Content-Type: text/plain; charset=utf-8" : "Content-Type: application/json; charset=utf-8");
 error_reporting(LOG ? E_ALL : JSON_ERROR_NONE);
-
-
 $result = array(
     'status' => 'error',
     'type' => 'empty',

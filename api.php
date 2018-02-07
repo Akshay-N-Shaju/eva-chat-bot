@@ -54,7 +54,6 @@ if (!isset($_REQUEST['requestType']) || !isset($_REQUEST['userInput'])) {
 
 if (LOG) {
     print "\n";
-
     print_r($result);
     print "\n";
 } else {

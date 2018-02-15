@@ -4,9 +4,7 @@ CREATE TABLE IF NOT EXISTS `data` (
   `data` text NOT NULL,
   UNIQUE KEY `unique` (`unique`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
 -- --------------------------------------------------------
-
 
 CREATE TABLE IF NOT EXISTS `log` (
   `user` varchar(255) NOT NULL,

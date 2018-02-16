@@ -13,7 +13,6 @@
             var webServiceUrl = window.location.href + 'api.php';
             console.log(webServiceUrl);
             $('.clean').click(function () {
-
                 Clear();
                 AddText('system ', 'cleaning...');
 
